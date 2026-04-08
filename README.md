@@ -7,7 +7,7 @@ Built as a portfolio project, it reflects real-world data engineering workflows 
 
 ---
 
-## 👨‍💻 About Me
+##  About Me
 
 Hi, I’m **Kinley Merenciano**, an aspiring **Data Engineer** currently focused on building strong foundations in SQL, data warehousing, and analytics.
 
@@ -15,7 +15,7 @@ I am continuously learning and applying real-world concepts through hands-on pro
 
 ---
 
-## 📌 Project Requirements
+##  Project Requirements
 
 ### Building the Data Warehouse (Data Engineering)
 
@@ -47,14 +47,14 @@ These insights empower stakeholders with key business metrics, enabling strategi
 
 ---
 
-## 🙌 Acknowledgment
+##  Acknowledgment
 
 This project is developed by following the guidance and methodology of **Baraa Selkeni**.
 All implementations are recreated and adapted for learning purposes to better understand real-world data engineering practices.
 
 ---
 
-## 📄 License
+##  License
 
 This project is licensed under the [MIT License](LICENSE).
 You are free to use, modify, and share this project with proper attribution.
