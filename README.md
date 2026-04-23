@@ -1,57 +1,54 @@
-# Data Warehouse and Analytics Project
+# 📊 SQL Data Warehouse Project
 
-Welcome to the **Data Warehouse and Analytics Project** repository!  
-This project showcases an end-to-end data warehousing solution — from data ingestion and transformation to analytics and insight generation.
+## 🚀 Overview
+This project demonstrates the design and implementation of a modern data warehouse using a multi-layer architecture (Bronze, Silver, Gold).
 
-Built as a portfolio project, it reflects real-world data engineering workflows and highlights industry best practices in data warehousing and analytics.
-
----
-
-## About Me
-
-Hi, I’m **Kinley Merenciano**, an aspiring **Data Engineer** focused on building strong foundations in SQL, data warehousing, and analytics.
-
-I continuously learn and apply real-world concepts through hands-on projects like this, aiming to develop industry-ready data engineering skills.
+The goal is to transform raw data from multiple sources into a clean, structured, and analytics-ready data model.
 
 ---
 
-## Project Requirements
+## 🏗️ Architecture
 
-### Building the Data Warehouse (Data Engineering)
+The project follows a layered approach:
 
-#### Objective
-Develop a modern data warehouse using SQL Server to consolidate sales data, enabling analytical reporting and informed decision-making.
-
-#### Specifications
-- **Data Sources**: Import data from two source systems (ERP and CRM) provided as CSV files  
-- **Data Quality**: Cleanse and resolve data quality issues prior to analysis  
-- **Integration**: Combine both sources into a single, user-friendly data model designed for analytical queries  
-- **Scope**: Focus on the latest dataset only; historization is not required  
-- **Documentation**: Provide clear documentation of the data model to support stakeholders and analytics teams  
+- **Bronze Layer** – Raw data ingestion from source systems (CRM & ERP)
+- **Silver Layer** – Data cleaning, validation, and standardization
+- **Gold Layer** – Business-ready data modeled using a Star Schema
 
 ---
 
-### BI: Analytics & Reporting (Data Analytics)
+## ⭐ Data Model (Gold Layer)
 
-#### Objective
-Develop SQL-based analytics to deliver insights into:
-
-- **Customer Behavior**  
-- **Product Performance**  
-- **Sales Trends**  
-
-These insights support stakeholders in making data-driven decisions.
+- `fact_sales` – transactional sales data
+- `dim_customers` – customer information
+- `dim_products` – product details
 
 ---
 
-## Acknowledgment
+## 🔍 Data Quality Checks
 
-This project is inspired by the teachings and methodology of **Baraa Selkeni**.  
-All implementations are built and adapted as part of my learning journey to better understand real-world data engineering practices.
+- Duplicate detection
+- Null value validation
+- Referential integrity checks
+- Business rule validation (e.g., gender fallback logic)
 
 ---
 
-## License
+## 🛠️ Tools & Technologies
 
-This project is licensed under the [MIT License](LICENSE).  
-You are free to use, modify, and share this project with proper attribution.
+- SQL Server
+- T-SQL
+
+---
+
+## 📌 Key Learnings
+
+- Data warehouse design (Bronze → Silver → Gold)
+- Data modeling (Star Schema)
+- Data transformation and validation
+- Building analytics-ready datasets
+
+---
+
+## 📎 Author
+**Kinley Merenciano**
